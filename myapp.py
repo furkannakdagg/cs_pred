@@ -10,7 +10,7 @@ from PIL import Image
 
 
 
-model=joblib.load("C:/Users/SEFA/model.pkl")
+model=joblib.load("model.pkl")
 
 maps=["de_cache","de_dust2","de_inferno","de_mirage","de_nuke","de_overpass","de_train","de_vertigo"]
 map_seçim1=st.sidebar.selectbox("Map seçiniz",maps)
